@@ -7,10 +7,13 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->menuBar(this);
+    //Какие-то изменения
 }
 
 MainWindow::~MainWindow()
 {
+    //и тут
+    ui->mainToolBar(this);
     ui->statusBar("Hello World!");
     delete ui;
 }
