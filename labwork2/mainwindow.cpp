@@ -6,9 +6,11 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->menuBar(this);
 }
 
 MainWindow::~MainWindow()
 {
+    ui->statusBar("Hello World!");
     delete ui;
 }
