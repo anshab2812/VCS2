@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 MainWindow::~MainWindow()
 {
-    //и тут
+    //и тут 12345
     ui->mainToolBar(this);
     ui->statusBar("Hello World!");
     delete ui;
